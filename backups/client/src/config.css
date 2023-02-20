@@ -1,0 +1,24 @@
+:root{
+    --vermelho: #f00000;
+    --verde: #019101;
+    --amarelo: #eec908;
+    --cinza-claro: #b3b3b3;
+    --cinza-escuro: #666666;
+    --branco: #ffffff;
+    --preto: #000000;
+    --fundo-escuro: #352c49;
+    --fundo-claro: #e1d3ff;
+    --azul: #3a38a7;
+    --azul-claro: rgb(137, 192, 255, 0.774);
+    --borda-escura: #282c34;
+    --sombra: rgba(65, 229, 235, 0.5) 0px 0px 0px 3px;
+}
+
+
+body {
+    /* background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1102%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='url(%23SvgjsLinearGradient1103)'%3e%3c/rect%3e%3cpath d='M1440 0L1123.07 0L1440 196.61z' fill='rgba(255%2c 255%2c 255%2c .1)'%3e%3c/path%3e%3cpath d='M1123.07 0L1440 196.61L1440 374.55L580.8299999999999 0z' fill='rgba(255%2c 255%2c 255%2c .075)'%3e%3c/path%3e%3cpath d='M580.8299999999999 0L1440 374.55L1440 444.8L269.0999999999999 0z' fill='rgba(255%2c 255%2c 255%2c .05)'%3e%3c/path%3e%3cpath d='M269.0999999999999 0L1440 444.8L1440 467.06L142.8799999999999 0z' fill='rgba(255%2c 255%2c 255%2c .025)'%3e%3c/path%3e%3cpath d='M0 560L297.78 560L0 437.14z' fill='rgba(0%2c 0%2c 0%2c .1)'%3e%3c/path%3e%3cpath d='M0 437.14L297.78 560L772.4 560L0 432.53999999999996z' fill='rgba(0%2c 0%2c 0%2c .075)'%3e%3c/path%3e%3cpath d='M0 432.54L772.4 560L1087.7 560L0 393.78000000000003z' fill='rgba(0%2c 0%2c 0%2c .05)'%3e%3c/path%3e%3cpath d='M0 393.78L1087.7 560L1138.3300000000002 560L0 144.17999999999998z' fill='rgba(0%2c 0%2c 0%2c .025)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1102'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='84.72%25' y1='-39.29%25' x2='15.28%25' y2='139.29%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1103'%3e%3cstop stop-color='rgba(14%2c 42%2c 71%2c 1)' offset='0.21'%3e%3c/stop%3e%3cstop stop-color='rgba(81%2c 0%2c 158%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+}
+

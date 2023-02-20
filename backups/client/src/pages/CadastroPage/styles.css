@@ -1,0 +1,91 @@
+.Cadastro{
+    display: grid;
+    grid-template-columns:  8% 3fr ;
+    grid-template-rows: 75px 100vh;
+    grid-template-areas: "header-logo header-nome"
+    "main main";
+}
+
+button {
+    background-color: var(--fundo-escuro);
+    box-shadow: none;
+    border: 0;
+    width: -webkit-fill-available;
+    text-align: left;
+}
+
+/* HEADER */
+
+.container-header {
+    background-color: var(--fundo-escuro);   
+    font-size: calc(10px + 2vmin);
+    color: white;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.container-header img{
+    width: calc(50px + 2vmin);
+}
+
+.img-logo{
+    grid-area: header-logo;
+}
+
+.app-name{
+    grid-area: header-nome;
+}
+
+
+/* MENU LATERAL */
+
+.lateral{
+    background-color: var(--fundo-escuro);
+    border-width: 2px;
+    grid-area: menu;
+}
+
+.nav-link{
+    text-transform: uppercase;
+    color: var(--branco);
+    font-weight: 500;
+    padding-left: 20px;
+    padding-right: 0%; 
+    margin-bottom: 20%;     
+}
+
+.nav-link:hover{
+    border-left: solid 8px;
+    border-left-color: var(--azul);
+    transition: 0.3s;
+}
+
+
+
+/* CARDS */
+
+.principal {
+    grid-column: main;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 2%;
+}
+
+.cards{
+    text-align: left;
+    border: solid var(--borda-escura);
+    border-radius: 5%;
+    border-width: 2px;
+    background-color: var(--cinza-claro);
+    width: 30%;
+    height: 300px;
+    margin-top: 10%;
+    padding: 2%;
+    
+}
+
+.cards h4{
+    font-size: medium;
+}
